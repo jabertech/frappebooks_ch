@@ -1,6 +1,6 @@
 {
   "countryCode": "ch",
-  "name": "Switzerland - General Chart of Accounts",
+  "name": "Switzerland - General Chart of Accounts EN",
   "tree": {
     "1-Assets": {
       "10-Current Assets": {
@@ -9,7 +9,8 @@
             "accountType": "Cash"
           },
           "1020-Bank Accounts": {
-            "accountType": "Bank"
+            "accountType": "Bank",
+			"isGroup": 1
           }
         },
         "106-Short‑Term Financial Assets at Market Value": {
@@ -145,16 +146,13 @@
       },
       "Duties and Taxes": {
         "VAT 8.1%": {
-          "accountType": "Tax",
-          "taxRate": 8.1
+          "accountType": "Tax"
         },
         "VAT 2.6%": {
-          "accountType": "Tax",
-          "taxRate": 2.6
+          "accountType": "Tax"
         },
         "VAT 3.8%": {
-          "accountType": "Tax",
-          "taxRate": 3.8
+          "accountType": "Tax"
         }
       },
       "rootType": "Liability"
