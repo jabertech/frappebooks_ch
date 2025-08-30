@@ -37,6 +37,7 @@ export function getCOAList() {
     { countryCode: 'nl', name: 'Netherlands - Grootboekschema' },
     { countryCode: 'sg', name: 'Singapore - Chart of Accounts' },
     { countryCode: 'fr', name: 'France - Plan Comptable General' },
+    { countryCode: 'ch', name: 'Switzerland - General Chart of Accounts EN' },
     /*  
     { countryCode: 'th', name: 'Thailand - Chart of Accounts' },
     { countryCode: 'us', name: 'United States - Chart of Accounts' },
@@ -50,7 +51,6 @@ export function getCOAList() {
     { countryCode: 'ro', name: 'Romania - Contabilitate' },
     { countryCode: 'ru', name: 'Russia - Chart of Accounts' },
     { countryCode: 'se', name: 'Sweden - Kontoplan' },
-    { countryCode: 'ch', name: 'Switzerland - Kontenplan' },
     { countryCode: 'tr', name: 'Turkey - Chart of Accounts' },*/
   ];
 }
